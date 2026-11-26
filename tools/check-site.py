@@ -291,7 +291,7 @@ def check(page_path):
 
 
 def main():
-    pages = ["index.html", "big-bazaar/index.html", "404.html"]
+    pages = ["index.html", "privacy.html", "big-bazaar/index.html", "404.html"]
 
     missing = [p for p in pages if not os.path.exists(os.path.join(ROOT, p))]
     if missing:
